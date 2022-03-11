@@ -1,0 +1,10 @@
+data:
+  data_path: data/demand-forecasting-kernels-only/
+  output_path: results/
+
+forecast:
+  forecast_level: [ store, item ]
+  date_col: date
+  dep_var: sales
+  id_col: id
+  forecast_horizon: 90
